@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+/* Answer for 1 :select all paragraph tags in div container */
+.container>.p{
+    background-color: gray; 
+}
+
+
+
+/* Answer for 2 :select all <input> elements that are inside a <filedset> with the id"user-info */
+fieldset #user-info{
+    background-color: rgb(104, 104, 236);
+}
+
+
+
+
+/* Answer for 3 : select all <li> elements that are children of a <ul> with the class "menu" and have the class "active"  */
+.menu>.active{
+    background-color: pink;
+}
+
+
+
+
+ /* Answer for 4 :select all <a> tags within a ,anv. element that also have the "external" class */
+ nav a.external{
+    background-color: orange;
+ }
+
+
+
+ 
+/* Answer for 5: select <input elements within a form ,but only if they are of type "text" and have a class "search"  */
+form input.search{
+    background-color: rgb(106, 227, 104);
+}
+
+
+/* Answer for 6 :Select The sub div indirect element */
+
+.container1 .sub #s2>p{
+    background-color: olivedrab;
+}
+
+
+/* Answer for 7 :Select Sub2 h1 and supersub1 p element */
+.container2 .sub2 h1,.supersub1>p{
+    background-color: blue;
+}
+
+/* Answer for 8 :Select sub3 paragraph and supersub2 paragraph and heading element */
+.container3 .sub3>p,.sub3>h3,.supersub2>p{
+    background-color: yellow;
+}
+
+
+/* Answer for 9 :Select all Direct p elements and select sub4 indirect and direct element by using general sibling selector  */
+.container4>p,.sub4>p~span>p{
+    background-color: orange;
+}

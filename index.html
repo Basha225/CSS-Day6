@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Question 1 :select all <p> elements inside a <div> with the class contaner -->
+        <h4>Paragraphs</h4>
+        <div class="container">
+            <p class="p">paragraph 1</p>
+            <p>paragraph 2</p>
+        </div>
+        <br>
+        <hr>
+
+
+
+    <!-- Question 2 :Select all <input> elements that are inside a <fireldset> with the id="user-info" -->
+        <fieldset>
+           <legend>
+            Input tags
+           </legend>
+           Name:<input type="text" id="user-info">
+           <br>
+           Email:<input type="email">
+        </fieldset>
+        <br>
+        <hr>
+
+
+
+
+    <!-- Queston 3 : select all <li> elements that are children of a <ul> with the class "menu" and have the class "active"  -->
+        <h4>List</h4>
+        <ul class="menu" type="circle">
+            <li class="active">item 1</li>
+            <li>item 2</li>
+        </ul>
+        <br>
+        <hr>
+
+
+
+
+    <!--Question 4 :Select all <a> tags within a <nav> element that also have the "external"  class -->
+       <h4>Links</h4>
+        <nav>
+            <a href="#" class="external">External Link</a>
+            <br>
+            <a href="#">Internal Link</a>
+        </nav>
+        <br>
+        <hr>
+
+
+
+
+
+    <!-- Question 5 :select <input elements within a form ,but only if they are have a class "search"  -->
+    <h4>Input Boxes</h4>   
+    <form action="">
+            Name<input type="text" class="search">
+            <br>
+            Email<input type="email">
+            <br>
+            Address<input type="text">
+            <br>
+            Password<input type="password">
+        </form>
+        <br>
+        <hr>
+    <!--Question 6 : Select sub div Sub Indirect Element by  -->
+        <h1>Container 1</h1>
+        <div class="container1">
+            <p>Direct Element</p>
+            <span><p>Indirect elements</p></span>
+            <div class="sub">
+                <p>Sub Direct Element</p>
+                <span id="s2"><p>Sub Indirect Element</p></span>
+            </div>
+        </div>
+        <br>
+        <hr>
+    <!-- Question 7 :Select Sub2 h1 and supersub1 p element  -->
+        <h1>Container 2</h1>
+        <div class="container2">
+            <h1>Direct Element</h1>
+            <span><p>Indirect Element</p></span>
+            <p>Direct Element</p>
+            <div class="sub2">
+                <h1>Sub Direct Element</h1>
+                <br>
+                <div class="supersub1">
+                    <p>Super Sub Element</p>
+                </div>
+                <p>Direct Element</p>
+            </div>
+        </div>
+        <br> <br>
+        <hr>
+
+    <!-- Question 8 :Select sub3 paragraph and supersub2 paragraph and heading element -->
+        <div class="container3">
+            <h1>Direct Element</h1>
+            <span><p>Indirect Element</p></span>
+            <div class="sub3">
+                <h2>Sub Direct Element</h2>
+                <p>Sub Direct Paragraph Element</p>
+                <div class="supersub2">
+                    <p>super sub paragraph</p>
+                    <span><p>Super sub Indirect Paragraph</p></span>
+                </div>
+                <h3>Last Heading</h3>
+                <p>Last Element</p>
+            </div>
+        </div>
+
+    <!-- Question 9: Select all Direct p elements and select sub4 indirect and direct element by using general sibling selector -->
+        <br><br>
+        <div class="container4">
+            <p>Direct Element</p>
+            <span><p>Indirect Element</p></span>
+            <p>Indirect Element2</p>
+            <div class="sub4">
+                <p>Sub Direct Element</p>
+                <span><P>Sub Indirect Element</P></span>
+            </div>
+            <h1>hi</h1>
+        </div>
+        <p>Last Element</p>
+</body>
+</html>
